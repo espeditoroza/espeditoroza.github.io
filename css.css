@@ -1,0 +1,565 @@
+@import url('https://www.fonts.com/font/flat-it/bebas?QueryFontType=Web&src=GoogleWebFonts');
+@import url('https://fonts.google.com/specimen/Montserrat');
+
+nav ul {
+    list-style: none;
+    background-color: #fff;
+    text-align: center;
+    padding: 0;
+    margin:  0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #4e4e4e ;
+    display: block;
+    transition: 1s background-color;    
+    margin: 0;
+}
+
+nav a:hover{
+    background-color: #6f6f6f;
+    color: #ffffff;
+}
+
+nav a:focus{
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+nav li {
+    font-family: 'Arial', sans-serif;
+    width: 15%;
+    border-bottom: none;
+    height: 5%;
+    line-height: 50px;
+    font-size: 100%;
+    letter-spacing: 3px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: -4px;
+} 
+
+header {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    background: #6f6f6f;
+    display:table;
+    top:0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.home {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.home h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FFFFFF;
+    font-size:700%;
+    white-space: nowrap;
+    line-height: 20%;
+    letter-spacing: 2px;
+}
+
+.home h1 span {
+    color:#ff9df2;
+}
+
+.home h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FFFFFF;
+    font-size:300%;
+    line-height: 0%;
+    letter-spacing: 5px;
+}
+
+.btn {
+    color: #FFFFFF;
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:135%;
+    padding: 15px 25px;
+    border: solid #FFFFFF 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color:#ff9df2;
+    border:solid #ff9df2 2px;
+}
+
+p {
+    font-size: 160%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #4e4e4e;    
+    margin-right: 18%;
+    margin-left: 18%; 
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.intro2 {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    background: #f3f3f3;
+    display:table;
+    top:0;
+    background-size: cover;
+    padding-top: 8%;
+}
+
+.intro2 .inner2 {
+    display: table-cell;
+    width: 100%;
+    max-width: none;
+    margin-top: 30%;
+}
+
+.sobre {
+    margin: 0 auto;
+    text-align:center;
+}
+
+.sobre h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4e4e4e;
+    font-size:300%;
+    line-height: 1%;
+    letter-spacing: 3px;
+}
+
+.centroicon {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.icoj{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius:50%;
+    float: left;
+    left: 50%;
+    transform: translate(-200%, 0);
+    margin-right: 10%;
+}
+
+#paleta{
+    position: absolute;
+    left: 33.3%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#brush{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tv{
+    position: absolute;
+    left: 26%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centroicon span i{
+    width: 25%;
+    text-align: center;
+    font-size:80px;
+    margin-right: 2%;
+    margin-left: 2%;
+    color: #4e4e4e;
+}
+
+.intro3 {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    background: #f3f3f3;
+    display:table;
+    top:0;
+    background-size: cover;
+    padding-top: 8%;
+}
+
+.intro3 .inner3 {
+    display: table-cell;
+    width: 100%;
+    max-width: none;
+    margin-top: 30%;
+}
+
+.portfolio {
+    margin: auto;
+    text-align:center;
+}
+
+.portfolioimagem {
+    z-index: -1;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+div.gallery {
+    filter: grayscale(100%);
+    text-align:center;
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+div.gallery:hover {
+    border: 5px solid #777;
+    filter: grayscale(0%);
+    text-align: center;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+div.desc {
+    padding: 0px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4e4e4e;
+    font-size:300%;
+    line-height: 1%;
+    letter-spacing: 3px;
+}
+
+.intro4 {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    background: #f3f3f3;
+    display:table;
+    top:0;
+    background-size: cover;
+    padding-top: 8%;
+}
+
+.intro4 .inner4 {
+    display: table-cell;
+    width: 100%;
+    max-width: none;
+    margin-top: 30%;
+}
+
+.contato {
+    margin: 0 auto;
+    text-align:center;
+}
+
+.contato h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4e4e4e;
+    font-size:300%;
+    line-height: 1%;
+    letter-spacing: 3px;
+    margin-bottom: 5%
+}
+
+input[type=text] {
+    font-family: Arial;
+    width: 20%;
+    padding: 5px 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    margin-bottom: 1%;
+}
+
+.estilotextarea2 {
+    font-family: Arial;
+    width: 20%;
+    height: 40%;
+    padding: 5px 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    margin-bottom: 1%;
+}
+
+input[type=submit] {
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height:30px;
+    font-family: Arial;
+    color: #FFFFFF;
+    background: #4d4d4d;
+}
+
+label {
+    color: #4e4e4e;
+    font-family: 'Arial';
+    margin-left: -16%;
+}
+
+footer{
+    text-align: center;
+    background-color: #4d4d4d;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer p{
+    padding-top: 2%;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+i{
+    width: 15%;
+    text-align: center;
+    font-size:80px;
+    margin-right: 2%;
+    margin-left: 2%;
+    color: #FFFFFF;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px){
+    nav li {
+        font-family: 'Arial', sans-serif;
+        width: 20%;
+        border-bottom: none;
+        height: 5%;
+        line-height: 50px;
+        font-size: 100%;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav ul li {
+        font-family: 'Arial', sans-serif;
+        width: 100%;
+        border-bottom: none;
+        height: 5%;
+        line-height: 50px;
+        font-size: 100%;
+        letter-spacing: 3px;
+    }
+    
+    .portfolioimagem .gallery{
+        width: 60%;
+        margin-left: 0;
+    }
+
+    .inner .home h1{
+        font-size: 50px;
+    }
+    .inner .home h2{
+        margin-top: 50%;
+    }
+
+    .centroicon .icoj{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: #FFFFFF;
+        border-radius:50%;
+        float: left;
+        left: 25%;
+        transform: translate(0%, 0);
+        margin-right: 10%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    nav li {
+        width: 25%;
+        margin-right: -4px;
+        letter-spacing: 3px;
+        font-size: 70%;
+        height: 14%;
+    }
+
+    .home h1 {
+        font-size:400%;
+        white-space: nowrap;
+        line-height: 20%;
+        letter-spacing: 2px;
+    }
+
+    .btn {
+        font-size:80%;
+    }
+    p {
+        font-size: 130%;
+        text-align: center;
+        font-family: sans-serif;
+        color: #4e4e4e;    
+        margin-right: 18%;
+        margin-left: 18%; 
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    
+    .centroicon{
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .centroicon i{
+        width: 25%;
+        text-align: center;
+        font-size:80px;
+        color: #4e4e4e;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    input[type=text] {
+        width: 50%;
+    }
+
+    .estilotextarea2 {
+        width: 50%;
+        height: 60%;
+    }
+
+    label {
+        margin-left: -40%;
+    }
+
+    footer p{
+        font-size: 8px;
+    }
+
+    i{
+        width: 15%;
+        text-align: center;
+        font-size:30px;
+        margin-right: 2%;
+        margin-left: 2%;
+        color: #FFFFFF;
+    }
+
+    div.gallery {
+    width: 50%;
+    height: 50%;
+    }
+
+    .portfolioimagem {
+    margin-left: 30%;
+    text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .centroicon {
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .icoj{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: #FFFFFF;
+        border-radius:50%;
+        float: left;
+        left: 50%;
+        transform: translate(-200%, 0);
+        margin-right: 10%;
+    }
+
+    #paleta{
+        position: absolute;
+        left: 33.3%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #brush{
+        position: absolute;
+        left: 30%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #tv{
+        position: absolute;
+        left: 26%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .centroicon span i{
+        width: 25%;
+        text-align: center;
+        font-size:40px;
+        margin-right: 2%;
+        margin-left: 2%;
+        color: #4e4e4e;
+    }
+
+}
