@@ -93,6 +93,7 @@ html, body{
 
 .home h1 span {
     color:#ff9df2;
+      transition: 3s;
 }
 
 .home h2 {
@@ -563,3 +564,7 @@ a:link {
     }
 
 }
+
+ ul li: hover{
+    cursor: pointer;
+ }
