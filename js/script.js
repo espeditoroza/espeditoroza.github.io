@@ -3,7 +3,7 @@ window.setInterval(function(){
     var randomColor = 'rgb(' + 255 + ',' + (Math.floor(Math.random() * 255)) + ',' + 242 + ')';
     
     $('span').css({
-      'color' : randomColor,
+      'color' : randomColor
     });
 
   }, 500);
@@ -11,8 +11,10 @@ window.setInterval(function(){
 
 $().ready(function(){
 	$("#sendBtn").click(function(){
-		alert("Ainda não estou recebendo mensagens por aqui, mas você pode me enviar um e-mail: espeditomesquita@gmail.com");
+		swal ( "Que pena" ,  "Ainda não estou recebendo mensagens por aqui, mas você pode me enviar um e-mail para: espeditomesquita@gmail.com" ,  "error" )
+		return false;
 	});
+	$(".lightbox").fancybox();
 
 	/*$("nav").hide();
 	$("a").click(function(){
@@ -21,7 +23,6 @@ $().ready(function(){
 	$("#home").click(function(){
 		$("nav").hide();
 	});*/
-
 
 	$('a[href^="#"]').click(function(){
 	$("html, body").animate({
