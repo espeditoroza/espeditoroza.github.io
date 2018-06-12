@@ -1,6 +1,11 @@
 @import url('https://www.fonts.com/font/flat-it/bebas?QueryFontType=Web&src=GoogleWebFonts');
 @import url('https://fonts.google.com/specimen/Montserrat');
 
+@font-face{
+    font-family: Bebas Neue;
+    src: url(BebasNeue.ttf);
+}
+
 nav ul {
     list-style: none;
     background-color: #fff;
