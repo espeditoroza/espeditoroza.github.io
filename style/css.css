@@ -88,7 +88,7 @@ html, body{
 }
 
 .home h1 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue';
     color: #FFFFFF;
     font-size:700%;
     white-space: nowrap;
@@ -102,7 +102,7 @@ html, body{
 }
 
 .home h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue';
     color: #FFFFFF;
     font-size:300%;
     line-height: 0%;
@@ -160,7 +160,7 @@ p {
 }
 
 .sobre h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue';
     color: #4e4e4e;
     font-size:300%;
     line-height: 1%;
@@ -274,7 +274,7 @@ div.desc {
 }
 
 .portfolio h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue';
     color: #4e4e4e;
     font-size:300%;
     line-height: 1%;
@@ -305,7 +305,7 @@ div.desc {
 }
 
 .contato h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue';
     color: #4e4e4e;
     font-size:300%;
     line-height: 1%;
