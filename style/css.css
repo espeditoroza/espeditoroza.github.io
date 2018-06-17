@@ -1,5 +1,6 @@
 @import url('https://www.fonts.com/font/flat-it/bebas?QueryFontType=Web&src=GoogleWebFonts');
 @import url('https://fonts.google.com/specimen/Montserrat');
+@import url('https://fonts.google.com/specimen/Oswald');
 
 nav ul {
     list-style: none;
@@ -83,7 +84,7 @@ html, body{
 }
 
 .home h1 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Arial', sans-serif;
     color: #FFFFFF;
     font-size:700%;
     white-space: nowrap;
@@ -97,7 +98,7 @@ html, body{
 }
 
 .home h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #FFFFFF;
     font-size:300%;
     line-height: 0%;
@@ -155,7 +156,7 @@ p {
 }
 
 .sobre h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #4e4e4e;
     font-size:300%;
     line-height: 1%;
@@ -269,7 +270,7 @@ div.desc {
 }
 
 .portfolio h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #4e4e4e;
     font-size:300%;
     line-height: 1%;
@@ -300,7 +301,7 @@ div.desc {
 }
 
 .contato h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #4e4e4e;
     font-size:300%;
     line-height: 1%;
