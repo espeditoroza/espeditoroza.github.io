@@ -15,15 +15,6 @@ $().ready(function(){
 		return false;
 	});
 	$(".lightbox").fancybox();
-
-	/*$("nav").hide();
-	$("a").click(function(){
-		$("nav").show();
-	});
-	$("#home").click(function(){
-		$("nav").hide();
-	});*/
-
 	$('a[href^="#"]').click(function(){
 	$("html, body").animate({
 		scrollTop: $( $.attr(this, "href")).offset().top
@@ -34,5 +25,3 @@ $().ready(function(){
 
 
 });
-
-
